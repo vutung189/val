@@ -8,7 +8,7 @@ export default function Page() {
 
   const handleNoClick = () => {
     if (noCount > 5) {
-      setNoCount(1);
+      setNoCount(0);
       return;
     }
     setNoCount(noCount + 1);
@@ -27,12 +27,13 @@ export default function Page() {
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
   const phrases = [
-    "https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif",
-    "https://media1.tenor.com/m/ykIUJGhcaVcAAAAC/milk-and-mocha-bear-couple.gif",
-    "https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif",
-    "https://media1.tenor.com/m/ykIUJGhcaVcAAAAC/milk-and-mocha-bear-couple.gif",
-    "https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif",
-    "https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif",
+    "01.gif",
+    "02.gif",
+    "03.gif",
+    "04.gif",
+    "04.gif",
+    "06.gif",
+    "05.gif",
   ];
 
   const renderImage = () => {
@@ -53,7 +54,7 @@ export default function Page() {
       <div className="valentine-container">
         {yesPressed ? (
           <>
-            <img src="https://media.tenor.com/qeJtDi4BOkwAAAAi/tkthao219-bubududu.gif" />
+            <img src="ok.gif" />
             <div className="text-container">Nga Suxi!!!</div>
           </>
         ) : (
