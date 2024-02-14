@@ -34,7 +34,7 @@
 }
 /* Custom class for text-4xl my-4 container */
 .text-container {
-  font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
+  font-size: 2rem; /* Equivalent to text-4xl in tailwindcss */
   margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
   margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
 }
