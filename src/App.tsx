@@ -65,7 +65,7 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src={{getImg()}}
             /> */}
-            <h1 className="text-container">Will you be my Valentine?</h1>
+            <h4 className="text-container">Will you be my Valentine?</h4>
             <div>
               <button
                 className={"yes-button"}
